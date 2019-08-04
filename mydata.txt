@@ -1,0 +1,26 @@
+url = https://10.71.130.2:8443/nps
+usernameID = username
+passwordID = password
+treeID = treename
+nextXpath = /html/body/div[1]/div[2]/table/tbody/tr[2]/td/div/div/div[2]/form/div/table/tbody/tr[2]/td/div/input
+
+logout1ID = header_username
+exitXpath = /html/body/div[5]/table/tbody/tr/td[2]/a
+
+
+
+
+Installer/Scripts/test_C3885856.exe
+The requested file contains a virus.
+Installer/Scripts/test_C3885855.exe
+The requested file contains a virus.
+Installer/Scripts/test.exe
+The requested file contains a virus.
+Installer/Tools/RemoveIIS_32.exe
+The requested file contains a virus.
+Installer/Tools/OSDetails.exe
+The requested file contains a virus.
+Installer/Tools/CaptureScreen.exe
+The requested file contains a virus.
+Installer/Scripts/Build/test_140.exe
+The requested file contains a virus.
