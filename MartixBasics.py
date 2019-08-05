@@ -1,10 +1,21 @@
 from numpy import *
+import scipy.linalg
 
-arr = array([1, 2, 3, 4, 5], float)
-arr1 = linspace(0, 15, 20)
-arr2 = linspace(0, 15)
 
-print(arr.dtype)
-print(arr)
+arr1 = array([
+    [1, 2, 3, 6],
+    [4, 5, 6, 7]
+])
 
 print(arr1)
+
+m = matrix('1 1 1; 1 1 1; 1 1 1')
+print(m)
+
+m1 = matrix('1 2 3; 6 4 5; 1 6 7')
+
+print(m1)
+
+m2 = m * m1
+
+print(m2)
