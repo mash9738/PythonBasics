@@ -1,0 +1,6 @@
+r = range(0, 10)
+print(r)
+print(list(r))
+print(list(range(2, 10, 2)))
+print(list(range(2)))
+print(list(range(-3, 3)))

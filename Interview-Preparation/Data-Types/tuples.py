@@ -1,0 +1,15 @@
+t = (1, 2, 5, 'w', 10, 9)
+print(t, type(t))
+print(t.count(1))
+print(t.index(1, 0, len(t)))
+print(type(t), id(t))
+print(t[:])
+a = t[0]
+print(a)
+b = list(t)
+print(b)
+b.append(22)
+print(b)
+
+t = tuple(b)
+print(t)

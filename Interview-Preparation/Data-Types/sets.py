@@ -1,0 +1,16 @@
+
+s = {1, 2, 5, 'w', 10}
+print(s, type(s))
+s.remove(1)
+print(s)
+s.pop()
+print(s)
+print(s.update())
+print(s)
+print(s.add(22))
+print(s)
+s1 = s.copy()
+print(s1)
+print("d", s.difference())
+print("r", s)
+print(s.add(30))
