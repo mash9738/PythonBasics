@@ -1,24 +1,21 @@
-from collections import *
+A = '0ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+#print(A.index('Z'))
+s = 'abccddde'
+S = s.upper()
+S1 = []
 
-original_str = deque('abcdefghijklmnopqrstuvwxyz')
+for i in range(len(S) - 1):
+    b = S[i]
+    c = A.index(b)
+    S1.append(c)
+    print("b:{} c:{} S1{}".format(b, c, S1))
+    #print(b, c, S1)
+    d = S[i + 1]
 
-k = 87
-original_lst = list(original_str)
-print(original_lst)
-original_str.rotate(-1)
-print(original_str)
-encr_str = ''
-for y in original_str:
-    encr_str+=y
-print(encr_str)
+    if b == d:
+        S1.append(S1[i] + S1 [i])
 
-
-
-
-
-
-
-
+#print(S1)
 
 
 
