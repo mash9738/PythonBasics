@@ -16,4 +16,3 @@ for i in range(p, r):
 
 print(s1)
 
-for i in s1:
